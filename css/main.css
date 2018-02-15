@@ -48,12 +48,12 @@ input[type=text]{
 }
 .title {
   font-size: 4.5rem;
-  color: rgb(255, 251, 1);
+  color: rgb(46, 205, 245);
   font-weight: 300;
 }
 .line{
   height: .5px;
-  background: rgb(255, 251, 1);
+  background: white;
   margin: 15px;
 }
 .subtitle {
@@ -66,7 +66,7 @@ input[type=text]{
   font-size: 1.5rem;
 }
 .frase {
-  color: rgb(255, 251, 1);
+  color: rgb(46, 205, 245);
   letter-spacing: 2px;
 }
 .frase:last-of-type {
@@ -74,32 +74,37 @@ input[type=text]{
   margin-bottom: 2rem;
 }
 .search {
-  border: 1px solid rgb(255, 251, 1) !important;
+  border: 2px solid white !important;
   background-color: transparent;
   margin-bottom: 2.5rem !important;
 }
 
 .name {
-  background-color: rgb(255, 251, 1);
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 1.5rem;
+  color: rgb(44, 37, 92)
 }
 .info {
-  background-color: rgb(22, 16, 58);
   padding:1rem;
   color: white; 
 }
 .modal-hr {
   height: 1px;
-  background: rgb(255, 251, 1);
 }
 .datos {
-  background-color: yellow;
-  color: black;
+  color: rgb(44, 37, 92);
+  border:  3px solid rgb(44, 37, 92);
+  padding: .5rem 0;
 }
 .estilodato{
   font-size: 2.5rem;
 }
 .collection {
   margin: .5rem 0;
+}
+.bg-modal {
+  background: rgb(46, 205, 245);
+}
+.noresult{
+  color: white;
 }
