@@ -8,14 +8,31 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
    <!-- link boosttrap CDN -->
    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.css">
+   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   
   <title>Start wars</title>
 </head>
 
 <body>
-    <input id="search" type="text" class="form-control" placeholder="Busqueda">
-    <div id="container-imagenes" class="container"></div>
+  <section class="container-fluid bg text-center">
+    <h3 class="title">Stars Wars</h3>
+    <hr class="line">
+    <h4 class="subtitle">LOVERS</h4>
+    <hr class="line">
+    <p class="frase">Busca tu personaje, conócelo más y...</p>
+    <p class="frase">que la fuerza te acompañe</p>
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1">
+        <input id="search" type="text" class="form-control search" placeholder="Busqueda">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1">
+        <div id="container-imagenes" class="container"></div>
+      </div>
+    </div>
+  </section>
 <!-- modal -->
 <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
@@ -35,23 +52,27 @@
               <p class="type"></p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-6 text-center">
-              <span class="glyphicon glyphicon-earphone icon hair_color" aria-hidden="true"></span>
+          <div class="row ">
+            <div class="col-xs-6 text-center info">
+              <p class="datos">Hair color</p>
+              <span class="glyphicon glyphicon-earphone icon hair_color estilodato" aria-hidden="true"></span>
               <hr class="modal-hr">
             </div>
-            <div class="col-xs-6 text-center">
-              <span class="glyphicon glyphicon-home icon height" aria-hidden="true"></span>
+            <div class="col-xs-6 text-center info">
+              <p class="datos">height</p>
+              <span class="glyphicon glyphicon-home icon height estilodato" aria-hidden="true"></span>
               <hr class="modal-hr">
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6 text-center">
-              <span class="glyphicon glyphicon-usd icon eye_color" aria-hidden="true"></span>
+            <div class="col-xs-6 text-center info">
+              <p class="datos">Eye color</p>
+              <span class="glyphicon glyphicon-usd icon eye_color estilodato" aria-hidden="true"></span>
               <hr class="modal-hr">
             </div>
-            <div class="col-xs-6 text-center">
-              <span class="glyphicon glyphicon-time icon mass" aria-hidden="true"></span>
+            <div class="col-xs-6 text-center info">
+              <p class="datos">mass</p>
+              <span class="glyphicon glyphicon-time icon mass estilodato" aria-hidden="true"></span>
               <hr class="modal-hr">
             </div>
           </div>

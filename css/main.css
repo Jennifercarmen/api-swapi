@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Merriweather', serif;
 }
 .box {
   background-color: #e8dbd5;
@@ -40,4 +41,65 @@ input[type=text]{
   width: 200px;
   height: 100px;
   margin-bottom: 10px;
+}
+.bg{
+  background-color: rgb(22, 16, 58);
+  height: 100vh;
+}
+.title {
+  font-size: 4.5rem;
+  color: rgb(255, 251, 1);
+  font-weight: 300;
+}
+.line{
+  height: .5px;
+  background: rgb(255, 251, 1);
+  margin: 15px;
+}
+.subtitle {
+  color: white;
+  letter-spacing: 5px;
+  margin: 0;
+}
+.texto {
+  color: white;
+  font-size: 1.5rem;
+}
+.frase {
+  color: rgb(255, 251, 1);
+  letter-spacing: 2px;
+}
+.frase:last-of-type {
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
+.search {
+  border: 1px solid rgb(255, 251, 1) !important;
+  background-color: transparent;
+  margin-bottom: 2.5rem !important;
+}
+
+.name {
+  background-color: rgb(255, 251, 1);
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+.info {
+  background-color: rgb(22, 16, 58);
+  padding:1rem;
+  color: white; 
+}
+.modal-hr {
+  height: 1px;
+  background: rgb(255, 251, 1);
+}
+.datos {
+  background-color: yellow;
+  color: black;
+}
+.estilodato{
+  font-size: 2.5rem;
+}
+.collection {
+  margin: .5rem 0;
 }
