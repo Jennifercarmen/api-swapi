@@ -10,17 +10,17 @@ var data = [{
 },
 {
   'id':4,
-  'name': 'Darth Vader',
+  'name': 'darth vader',
   'image': 'assets/images/vader.png',
 },
 {
   'id':14,
-  'name': 'Han Solo',
+  'name': 'han solo',
   'image': 'assets/images/han-solo.png',
 },
 {
   'id':20,
-  'name': 'Yoda',
+  'name': 'yoda',
   'image': 'assets/images/yoda.png',
 }
 ];
